@@ -1,0 +1,75 @@
+body{
+    font-family: sans-serif;
+    color: rgb(4, 94, 1);
+}
+h1{
+    text-align: center;
+    text-shadow: 2px 2px 3px rgb(157, 233, 106);
+    font-size: 45px;
+}
+label{
+    font-size: 20px;
+    color: darkgreen;
+}
+#paragrafo{
+    font-size: 18px;
+    margin: 40px auto;
+    text-align: center;
+    width: 500px;
+}
+#inputsArea{
+    background: rgba(157, 233, 106, 0.822);
+    width: 400px;
+    margin: auto;
+    padding-top: 40px;
+    border: 1px solid rgb(4, 94, 1);
+    border-radius: 5px;
+    text-align: center;
+}
+#resultadoCor{
+    margin: auto;
+    padding: 40px;
+    text-align: center;
+    font-size: 25px;
+}
+#peso, #altura{
+    height: 25px;
+    width: 55px;
+    display: block;
+    margin-left: 43%;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    border: 1px solid rgb(4, 94, 1);
+    border-radius: 5px;
+}
+.botao{
+    border: 2px solid rgb(5, 116, 1);
+    border-radius: 5px;
+    padding: 5px 15px;
+    background: rgb(4, 94, 1);
+    color: white;
+}
+.botao:hover{
+    background: rgba(4, 94, 1, 0.87);
+}
+#tabela{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#tituloTabela{
+    background: rgb(157, 233, 106);
+    text-shadow: 2px 2px 3px rgb(96, 143, 65);
+    border-radius: 5px 5px 0 0;
+    font-size: 35px;
+    width: 400px;
+    margin: auto;
+    margin-top: 35px;
+}
+#cabeca{
+    background: rgb(157, 233, 106);
+    width: 400px;
+}
+tr:nth-child(odd){
+    background: rgb(129, 214, 72);
+}
