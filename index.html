@@ -12,59 +12,70 @@
     <h1>Cálculo de IMC</h1>
 
     <div id="paragrafo">
-        <p>IMC é a sigla para Índice de Massa Corpórea,<br> parâmetro adotado pela Organização <br> Mundial de Saúde para calcular o peso ideal <br> de cada pessoa.
-
-        O índice é calculado <br> da seguinte maneira: divide-se o peso <br> do paciente pela sua altura elevada <br> ao quadrado. Diz-se que o indivíduo <br> tem peso normal quando o resultado <br> do IMC está entre 18,5 e 24,9.
-        <br>    
-        Quer descobrir seu IMC? Insira seu peso <br> e sua altura nos campos abaixo e compare <br> com os índices da tabela. 
+        <p>IMC é a sigla para Índice de Massa Corpórea,
+            <br> parâmetro adotado pela Organização 
+            <br> Mundial de Saúde para calcular o peso ideal 
+            <br> de cada pessoa. O índice é calculado 
+            <br> da seguinte maneira: divide-se o peso 
+            <br> do paciente pela sua altura elevada 
+            <br> ao quadrado. Diz-se que o indivíduo 
+            <br> tem peso normal quando o resultado 
+            <br> do IMC está entre 18,5 e 24,9.
+            <br>Quer descobrir seu IMC? Insira seu peso 
+            <br> e sua altura nos campos abaixo e compare 
+            <br> com os índices da tabela. 
         </p>
     </div>
-    <div id="inputsArea">
-        <label for="peso">Qual seu peso?</label>
-        <input type="tel" id="peso">
-        <label for="altura">Qual sua altura?(ex: 1,63)</label>
-        <input type="number" id="altura">
-        <input type="submit" class="botao" value="Calcular" onclick="calcular()">
-        <input type="submit"  class="botao" value="Limpar  " onclick="limpar()">
-        <div id="resultadoCor">
-            <div id="res"></div>
-            <div id="valor"></div>
+    <div id="geral">
+        <div id="inputsArea">
+            <label for="peso">Qual seu peso?</label>
+            <input type="tel" id="peso">
+            <label for="altura">Qual sua altura?(ex: 1,63)</label>
+            <input type="number" id="altura">
+            <input type="submit" class="botao" value="Calcular" onclick="calcular()">
+            <input type="submit"  class="botao" value="Limpar  " onclick="limpar()">
+            <div id="resultadoCor">
+                <div id="res"></div>
+                <div id="valor"></div>
+            </div>
         </div>
-    </div>
-    
-    <h1 id="tituloTabela">tabela</h1>
-    <div id="tabela">
-        <table id="cabeca">
-             <thead>
-                <tr>
-                    <th>IMC</th>
-                    <th>Classificação</th>
-                </tr>
-            </thead>
-            <tbody>   
-                <tr id="linha1">
-                    <td>Menor que 18,5</td>
-                    <td>Magreza</td>
-                </tr>
-                <tr id="linha2">
-                    <td>Entre 18.5 e 24,9</td>
-                    <td>Normal</td>
-                </tr>
-                <tr id="linha3">
-                    <td>Entre 25,0 e 29,9</td>
-                    <td>Sobrepeso</td>
-                </tr>
-                <tr id="linha4">
-                    <td>Entre 30.0 e 39.9</td>
-                    <td>Obesidade</td>
-                </tr>
-                <tr id="linha5">
-                    <td>Maior que 40,0</td>
-                    <td>Obesidade Mórbida</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
+        
+        <div id="tabela">
+            <table>
+                <thead>
+                    <td colspan="2" id="tituloTabela">tabela</td>
+                </thead>
+                <thead>
+                    <tr>
+                        <th>IMC</th>
+                        <th>Classificação</th>
+                    </tr>
+                </thead>
+                <tbody>   
+                    <tr id="linha1">
+                        <td>Menor que 18,5</td>
+                        <td>Magreza</td>
+                    </tr>
+                    <tr id="linha2">
+                        <td>Entre 18.5 e 24,9</td>
+                        <td>Normal</td>
+                    </tr>
+                    <tr id="linha3">
+                        <td>Entre 25,0 e 29,9</td>
+                        <td>Sobrepeso</td>
+                    </tr>
+                    <tr id="linha4">
+                        <td>Entre 30.0 e 39.9</td>
+                        <td>Obesidade</td>
+                    </tr>
+                    <tr id="linha5">
+                        <td>Maior que 40,0</td>
+                        <td>Obesidade Mórbida</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+</div>
     <script src="./script.js"></script>
 </body>
 </html>

@@ -3,30 +3,29 @@ body{
     color: rgb(4, 75, 1);
     background-image: url('./420005838-vegetais.jpg');
     background-size: cover;
+    font-size: 18px;
 }
 h1{
-    text-align: center;
+    margin-left: 50px;
     text-shadow: 2px 2px 3px rgb(157, 233, 106);
     font-size: 50px;
 }
 label{
-    font-size: 20px;
-    color: darkgreen;
+    font-size: 25px;
+    text-shadow: 2px 2px 3px rgb(96, 143, 65);
 }
 #paragrafo{
     color: white;
-    font-size: 18px;
-    margin: 40px auto 5px;
-    padding: 5px 15px;
-    text-align: left;
+    margin: 10px 0 5px 40px;
+    padding-left: 15px;
     width: 500px;
-    
+    border-bottom: 2px solid white;
 }
 #inputsArea{
-    background: rgba(157, 233, 106, 0.822);
+    background: rgb(157, 233, 106);
     width: 400px;
-    margin: auto;
-    padding-top: 40px;
+    padding-top: 30px;
+    margin-top: 20px;
     border: 1px solid rgb(4, 94, 1);
     border-radius: 5px;
     text-align: center;
@@ -35,15 +34,17 @@ label{
     margin: auto;
     padding: 40px;
     text-align: center;
-    font-size: 25px;
+    text-shadow: 2px 2px 3px rgb(96, 143, 65);
+    font-size: 35px;
 }
 #peso, #altura{
     height: 25px;
     width: 55px;
     display: block;
-    margin-left: 43%;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 5px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     border: 1px solid rgb(4, 94, 1);
     border-radius: 5px;
 }
@@ -58,23 +59,27 @@ label{
     background: rgba(4, 94, 1, 0.87);
 }
 #tabela{
+    margin-right: auto;
+    margin-left: 10px;
+    margin-top: 30px;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    text-align: center;
+    background: rgb(157, 233, 106);
+    height: 220px;
+    border-radius: 5px;
+    border: 1px solid rgb(4, 94, 1);
 }
 #tituloTabela{
     background: rgb(157, 233, 106);
     text-shadow: 2px 2px 3px rgb(96, 143, 65);
-    border-radius: 5px 5px 0 0;
     font-size: 35px;
-    width: 400px;
-    margin: auto;
-    margin-top: 35px;
-}
-#cabeca{
-    background: rgb(157, 233, 106);
+    padding: 5px 10px 10px;
     width: 400px;
 }
 tr:nth-child(odd){
     background: rgb(129, 214, 72);
 }
+#geral{
+    display: flex;
+}
+
