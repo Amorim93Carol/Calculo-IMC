@@ -1,21 +1,26 @@
 body{
     font-family: sans-serif;
-    color: rgb(4, 94, 1);
+    color: rgb(4, 75, 1);
+    background-image: url('./420005838-vegetais.jpg');
+    background-size: cover;
 }
 h1{
     text-align: center;
     text-shadow: 2px 2px 3px rgb(157, 233, 106);
-    font-size: 45px;
+    font-size: 50px;
 }
 label{
     font-size: 20px;
     color: darkgreen;
 }
 #paragrafo{
+    color: white;
     font-size: 18px;
-    margin: 40px auto;
-    text-align: center;
+    margin: 40px auto 5px;
+    padding: 5px 15px;
+    text-align: left;
     width: 500px;
+    
 }
 #inputsArea{
     background: rgba(157, 233, 106, 0.822);
